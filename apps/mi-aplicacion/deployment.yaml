@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: mi-aplicacion
-          image: gcr.io/tu-proyecto/mi-aplicacion:latest
+          image: gcr.io/Proyecto2-CI/mi-aplicacion:latest
           ports:
             - containerPort: 80
