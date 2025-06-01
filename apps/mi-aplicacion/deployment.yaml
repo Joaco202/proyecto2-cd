@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: mi-aplicacion
-          image: gcr.io/proyecto2-ci/mi-aplicacion:latest
+          image: gcr.io/deep-theorem-461601-j3/mi-aplicacion:latest
           ports:
             - containerPort: 80
