@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: mi-aplicacion
-          image: gcr.io/deep-theorem-461601-j3/mi-aplicacion:73bbeb9
+          image: gcr.io/deep-theorem-461601-j3/mi-aplicacion:2584bce
           ports:
             - containerPort: 8080
