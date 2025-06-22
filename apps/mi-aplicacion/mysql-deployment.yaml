@@ -24,3 +24,13 @@ spec:
               value: "%"
           ports:
             - containerPort: 3306
+          volumeMounts:
+            - name: initdb
+              mountPath: /docker-entrypoint-initdb.d
+      volumes:
+        - name: initdb
+          configMap:
+            name: mysql-initdb-script
+            items:
+              - key: init.sql
+                path: init.sql

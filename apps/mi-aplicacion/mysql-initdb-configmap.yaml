@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mysql-initdb-script
+data:
+  init.sql: |
+    CREATE USER 'usuario'@'%' IDENTIFIED BY 'usuariopwd';
+    GRANT ALL PRIVILEGES ON farmaceutica.* TO 'usuario'@'%';
+    FLUSH PRIVILEGES;
