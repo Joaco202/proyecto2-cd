@@ -4,6 +4,7 @@ metadata:
   name: mi-aplicacion
 spec:
   replicas: 2
+  revisionHistoryLimit: 1 #limitaria el número de versiones guardadas
   selector:
     matchLabels:
       app: mi-aplicacion
