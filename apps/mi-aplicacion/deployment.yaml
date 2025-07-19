@@ -17,6 +17,6 @@ spec:
     #    - name: mi-aplicacion
     #      image: gcr.io/deep-theorem-461601-j3/mi-aplicacion:b6d213c #cambiar linea
         - name: mi-aplicacion
-          image: gcr.io/devopsfarmacia/mi-aplicacion:1e0e996
+          image: gcr.io/devopsfarmacia/mi-aplicacion:e2c014b
           ports:
             - containerPort: 8080
